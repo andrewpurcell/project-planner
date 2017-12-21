@@ -1,6 +1,6 @@
 def load_projects
   [
-    Project.new("Widget A", 4, leads: { 'design complete': 4, 'dev ready': 2}),
+    Project.new("Widget A", 4),
     Project.new("Widget B", 5, leads: { 'design complete': 4, 'dev ready': 2}),
     Project.new("Redesign the website", 12, leads: { 'design complete': 6, 'dev ready': 2}),
     Project.new("Widget Q", 5, leads: { 'design complete': 6, 'dev ready': 2}),
